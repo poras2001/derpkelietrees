@@ -1,0 +1,161 @@
+# APEX
+ro.apex.updatable=false
+
+# Audio
+audio.offload.min.duration.secs=30
+
+# Bluetooth
+ro.bluetooth.emb_wp_mode=false
+ro.bluetooth.wipower=false
+persist.vendor.btstack.aac_frm_ctl.enabled=true
+persist.vendor.btstack.enable.twsplus=true
+persist.vendor.btstack.connect.peer_earbud=true
+persist.vendor.btstack.enable.twsplussho=true
+persist.vendor.btstack.enable.swb=true
+persist.vendor.btstack.enable.swbpm=true
+persist.vendor.service.bdroid.soc.alwayson=true
+persist.vendor.qcom.bluetooth.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aac-ldac-aptxadaptive
+
+# Blur
+ro.surface_flinger.supports_background_blur=1
+persist.sys.sf.disable_blurs=1
+ro.sf.blurs_are_expensive=1
+ro.launcher.blur.appLaunch=0
+
+# Brightness Curve
+persist.sys.brightness.low.gamma=false
+
+# Camera
+ro.miui.notch=1
+persist.vendor.camera.privapp.list=com.android.camera
+vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera2,com.android.camera
+
+# CNE
+persist.vendor.cne.feature=1
+
+# Dalvik
+dalvik.vm.dexopt.secondary=true
+
+# Disable MTE Async for system server
+arm64.memtag.process.system_server=off
+
+# Display
+debug.sf.disable_client_composition_cache=1
+debug.sf.disable_backpressure=1
+debug.sf.auto_latch_unsignaled=true
+debug.sf.enable_hwc_vds=0
+debug.performance.tuning=1
+ro.opengles.version=196610
+ro.vendor.display.cabl=0
+
+# DPM
+persist.vendor.dpm.feature=11
+
+# FUSE
+persist.sys.fuse.passthrough.enable=true
+
+#GBoard
+ro.com.google.ime.kb_pad_port_b=1
+
+# HVDCP
+persist.vendor.cp.taper_term_mv=6500
+persist.vendor.cp.fcc_main_ua=400000
+
+# IMS
+persist.dbg.volte_avail_ovr=1
+persist.dbg.vt_avail_ovr=1
+persist.dbg.wfc_avail_ovr=1
+
+# Logs
+persist.log.tag.AnalyticsService=S
+persist.log.tag.KernelCpuUidActiveTimeReader=S
+persist.log.tag.Tracer=S
+persist.log.tag.NearbySharing=S
+persist.log.tag.IntervalStats=S
+persist.log.tag.CompatibilityChangeReporter=S
+persist.log.tag.SQLiteLog=S
+persist.log.tag.wificond=S
+persist.log.tag.b/223498680=S
+persist.log.tag.TrafficStats=S
+persist.log.tag.ContrastColorUtil=S
+persist.log.tag.RefreshRateConfigs=S
+
+# Media
+media.settings.xml=/vendor/etc/media_profiles_vendor.xml
+media.stagefright.enable-aac=true
+media.stagefright.enable-fma2dp=true
+media.stagefright.enable-http=true
+media.stagefright.enable-player=true
+media.stagefright.enable-qcp=true
+media.stagefright.enable-scan=true
+media.stagefright.thumbnail.prefer_hw_codecs=true
+ro.media.recorder-max-base-layer-fps=60
+vendor.mm.enable.qcom_parser=16777215
+
+# Perf
+ro.vendor.qti.sys.fw.bservice_enable=true
+
+# Pre-Rendering
+ro.vendor.perf.scroll_opt=true
+
+# Qcom
+ro.vendor.qti.va_aosp.support=1
+
+# Radio
+DEVICE_PROVISIONED=1
+keyguard.no_require_sim=true
+persist.data.df.agg.dl_pkt=10
+persist.data.df.agg.dl_size=4096
+persist.radio.atfwd.start=false
+persist.data.df.dev_name=rmnet_usb0
+persist.data.df.dl_mode=5
+persist.data.df.iwlan_mux=9
+persist.data.df.mux_count=8
+persist.data.df.ul_mode=5
+persist.data.wda.enable=true
+persist.vendor.data.iwlan.enable=true
+persist.vendor.data.mode=concurrent
+persist.sys.radio.force_lte_ca=true
+persist.vendor.radio.atfwd.start=true
+persist.vendor.radio.data_con_rprt=1
+persist.vendor.radio.redir_party_num=1
+persist.vendor.radio.report_codec=1
+persist.vendor.radio.snapshot_enabled=1
+persist.vendor.radio.snapshot_timer=5
+ril.subscription.types=NV,RUIM
+ro.telephony.default_network=22,22
+ro.vendor.use_data_netmgrd=true
+telephony.lteOnCdmaDevice=1
+persist.sys.fflag.override.settings_provider_model=false
+
+# Ram Management
+ro.config.fha_enable=true
+ro.sys.fw.bg_apps_limit=32
+ro.config.dha_cached_max=16
+ro.config.dha_empty_max=42
+ro.config.dha_empty_init=32
+ro.config.dha_lmk_scale=0.545
+ro.config.dha_th_rate=2.3
+ro.config.sdha_apps_bg_max=64
+ro.config.sdha_apps_bg_min=8
+
+# Radio Video Calling
+persist.vendor.radio.vdp_on_ims_cap=1
+persist.vendor.qti.telephony.vt_cam_interface=2
+
+# SSR
+persist.vendor.ssr.restart_level=ALL_ENABLE
+
+#thermal configs path
+sys.thermal.data.path=/data/vendor/thermal/
+
+# Sensors
+persist.vendor.sensors.enable.mag_filter=true
+
+# Storage.xml moment
+persist.sys.binary_xml=false
+
+# WFD
+persist.debug.wfd.enable=1
+persist.sys.wfd.virtual=0
+vendor.sys.video.disable.ubwc=1
